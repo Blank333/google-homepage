@@ -2,11 +2,12 @@
 	text-align: right;
 	font-size: 13px;
 	margin:15px;
+
 }
 a{
-	color:black;
 	text-decoration: none;
 	padding:7px;
+	color:black;
 }
 a:hover{
 	text-decoration: underline;
@@ -70,11 +71,50 @@ button{
 #input:hover{
 	box-shadow:1px 1px 3px 1px #8080809e;
 }
-#search:hover{
+#search:hover, #lucky:hover{
 	background-color: #8e8c8c1c ;
 	border: 1px solid gray;
 }
-#lucky:hover{
-	background-color: #8e8c8c1c ;
-	border: 1px solid gray;
+
+.country{
+	border-top:1px solid #8080804f;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	flex:0 1 44px;
+	padding:10px;
+}
+.info{
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-areas: "contact settings";
+	border-top:1px solid #8080804f;
+	height:44px;
+	align-content: center;
+	width:100vw;
+}
+.contact{
+	display:flex;
+	grid-area: contact;
+	justify-content: start;
+}
+.settings{
+	display:flex;
+	grid-area: settings;
+	justify-content: end;
+}
+.footer{
+	background-color: #cac2c24a;
+	margin:none;
+	color:#515050e3;
+	font-size:13px;
+	position:fixed;
+	bottom:0;
+}
+.footer a{
+	color:#515050e3;
+}
+
+body{
+	margin:0;
 }
