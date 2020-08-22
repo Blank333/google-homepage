@@ -1,5 +1,4 @@
-Designing Google homepage (non functioning)
+#Designing Google homepage (non functioning)
 
-Used HTML and CSS 
-
-Made use of CSS Grids to position items
+-Used HTML and CSS 
+-Made use of CSS Grids to position items
